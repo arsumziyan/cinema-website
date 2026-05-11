@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cinema Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Cinema</h1>
+    </header>
+    <main>
+        <form id="searchForm" action="#" method="GET">
+            <input type="text" id="searchBar" placeholder="Search for movies..." required>
+        </form>
+
+        <section id="movie-list">
+        </section>
+
+        <section id="upload" class="section-upload">
+            <h2>Upload a Movie</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="MovieName">Movie Name:</label>
+                <input type="text" id="MovieName" name="MovieName" required>
+                
+                <label for="MovieDescription">Movie Description:</label>
+                <input type="text" id="MovieDescription" name="MovieDescription" required>
+            
+                <label for="imageFile">Choose an image file:</label>
+                <input type="file" id="imageFile" multiple>
+                
+                <label for="posterUrl">Or paste a poster URL:</label>
+                <input type="text" id="posterUrl" name="posterUrl" placeholder="http://example.com/poster.jpg">
+
+                <div id="genresContainer">
+                    <h3>Select Genres</h3>
+                </div>
+            
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section id="contact" class="section-contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@cuecinemas.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 456 Cinema Avenue, FilmCity, 54321</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Cinemas. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
