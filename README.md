@@ -1,4 +1,4 @@
-# 🎬 Cinema Website
+<img width="1621" height="976" alt="Screenshot 2026-09-29 at 4 01 29 PM" src="https://github.com/user-attachments/assets/a08bc349-543f-4da7-87b8-1fedad430925" /># 🎬 Cinema Website
 
 A full-stack cinema web application built with **Node.js**, **Express**, **MongoDB**, and **Vanilla JavaScript**. This project was developed during my backend internship and allows users to browse movies, search by title or genre, and upload new movies with poster images.
 
@@ -98,7 +98,9 @@ A full-stack cinema web application built with **Node.js**, **Express**, **Mongo
 
 ## 📸 Screenshots
 
-> Add screenshots of your UI here after deploying or running locally.
+![Uploading image.png…]()
+
+
 
 ---
 
