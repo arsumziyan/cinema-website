@@ -98,7 +98,11 @@ A full-stack cinema web application built with **Node.js**, **Express**, **Mongo
 
 ## 📸 Screenshots
 
+<img width="2062" height="1954" alt="image" src="https://github.com/user-attachments/assets/a01befae-ad0c-4ddf-8258-375c44f9ae58" />
+<img width="3284" height="1636" alt="image" src="https://github.com/user-attachments/assets/35559729-bcf7-4d5b-8b0f-ccae638a0a09" />
 ![Uploading image.png…]()
+
+
 
 
 
